@@ -38,8 +38,8 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$ ( "#menu-close").click();>Start Bootstrap</a>
-            </li>
+               <!-- <a href="#top" onclick=$ ( "#menu-close").click();>Start Bootstrap</a>
+            </li>-->
             <li>
                 <a href="#top" onclick=$ ( "#menu-close").click();>Home</a>
             </li>
@@ -47,7 +47,7 @@
                 <a href="#about" onclick=$ ( "#menu-close").click();>About</a>
             </li>
             <li>
-                <a href="#services" onclick=$ ( "#menu-close").click();>Services</a>
+                <a href="#services" onclick=$ ( "#menu-close").click();>Photos</a>
             </li>
             <li>
                 <a href="#portfolio" onclick=$ ( "#menu-close").click();>Portfolio</a>
@@ -61,8 +61,8 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Illumination Website</h1>
-            <h3>Judy Bussell Portfolio</h3>
+            <h1>Illumination Earth</h1>
+           <!-- <h3>Judy Bussell Portfolio</h3>-->
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
@@ -73,8 +73,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Illumination Portfolio</h2>
-                    <p class="lead">Wonderful Maps! <a target="_blank" href="http://neiu-gis.herokuapp.com/competitions/1">Vote for your favorite Map!</a>.</p>
+                    <h2>Illumination Website</h2>
+					<h3><a target="_blank" href="http://itorb.com/">Judy Bussell Portfolio</a></h3>
+                    <p class="lead">Wonderful Maps! <a target="_blank" href="http://neiu-gis.herokuapp.com/competitions/1">Vote for your favorite Map!</a> </p>
                 </div>
             </div>
             <!-- /.row -->
@@ -102,7 +103,7 @@
                                     <strong>Map 1</strong>
                                 </h4>
                                 <p>Montreal, Quebec, Canada</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#portfolio" onclick=$ class="btn btn-light">Maps</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -115,7 +116,7 @@
                                     <strong>Map 2</strong>
                                 </h4>
                                 <p>Chicago, Illinois, USA</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#portfolio" onclick=$  class="btn btn-light">Maps</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -129,7 +130,7 @@
                                     <strong>Map 3</strong>
                                 </h4>
                                 <p>British Columbia, Canada</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#portfolio" onclick=$ class="btn btn-light">Maps</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -143,10 +144,29 @@
                                     <strong>Map 4</strong>
                                 </h4>
                                 <p>Missouri, USA</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#portfolio" onclick=$ class="btn btn-light">Maps</a>
                             </div>
                         </div>
-                    </div>
+                    <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <!--<span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <!--<i class="fa fa-shield fa-stack-1x text-primary"></i>-->
+								<!--<i class="fa fa-compass fa-stack-1x text-primary"></i>
+                            </span> 
+                                <h4>
+                                    <strong>Map 5</strong>
+                                </h4>-->
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 text-center">
+							     <p>Ancient Maps</p>
+                                <!-- <a href="ancient" class="btn btn-light">Ancient Maps</a>-->
+                    <a href="#ancient" onclick=$ class="btn btn-dark">Ancient Maps</a>
+								</div>
+                            </div>
+                        </div>
+					</div>
                     <!-- /.row (nested) -->
                 </div>
                 <!-- /.col-lg-10 -->
@@ -158,11 +178,44 @@
 
     <!-- Callout -->
     <aside class="callout">
-        <div class="text-vertical-center">
+        <div class="text-bottom-center">
             <h1>Beautiful British Columbia</h1>
         </div>
     </aside>
-
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                     <!--<h3>Interactive Map of Montreal, Quebec Canada </h3>
+                    <!--<a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>-->
+                </div>
+            </div>
+        </div>
+    </aside>
+   <!-- Callout2 -->
+    <aside class="callout2">
+        <div class="text-bottom-center">
+            <h1>Outstanding Chicago Lakefront</h1>
+        </div>
+    </aside>
+	<aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                     <!--<h3>Interactive Map of Montreal, Quebec Canada </h3>
+                    <!--<a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>-->
+                </div>
+            </div>
+        </div>
+    </aside>
+   <!-- Callout3 -->
+    <aside class="callout3">
+        <div class="text-bottom-center">
+            <h1>Magnificent Montreal</h1>
+        </div>
+    </aside>
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
         <div class="container">
@@ -200,7 +253,10 @@
                             </div>
                         </div>						
                     </div>
-					<div class="row">
+		</section>
+	 <section id="ancient" class="ancient">
+		<div class="container">
+			<div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2>Ancient World Maps</h2>
                     <hr class="small">
@@ -228,7 +284,6 @@
         </div>
         <!-- /.container -->
     </section>
-
     <!-- Call to Action -->
     <aside class="call-to-action bg-primary">
         <div class="container">
@@ -244,7 +299,7 @@
 
     <!-- Map -->
     <section id="contact" class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1006150.7263711779!2d-74.15234920264086!3d45.84879743435458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a541c64b70d%3A0x654e3138211fefef!2sMontreal%2C+QC%2C+Canada!5e0!3m2!1sen!2sus!4v1470890250293" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1006150.7263711779!2d-74.15234920264086!3d45.84879743435458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a541c64b70d%3A0x654e3138211fefef!2sMontreal%2C+QC%2C+Canada!5e0!3m2!1sen!2sus!4v1470890250293" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen > <!--</iframe>
         <!--<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed">-->
 		<br />
         <small>
@@ -259,10 +314,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Illumination</strong>
+                    <h4><strong> <a target="_blank" href="http://illuminaxis.com/">Illumination </strong>  </a>
                     </h4>
-                    <p>Northeastern Illinois University
-                        <br>Chicacgo, IL  60625</p>
+                    <p> <a target="_blank" href="http://neiu.edu/academics/college-of-arts-and-sciences/departments/geography-environmental-studies"> Northeastern Illinois University </a>
+                        <br> <a  target="_blank" href="http://www.cityofchicago.org/city/en/depts/doit/provdrs/gis.html"> Chicago, IL  60625</a> </p> 
                     <ul class="list-unstyled">
                           <!-- <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li> -->
                         <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:j-benayad@neiu.edu">j-benayad@neiu.edu</a>
@@ -277,7 +332,7 @@
                             <a  a target="_blank" href="https://twitter.com/simapiers"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                           <!-- <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>-->
+                           <a a target="_blank" href="https://www.linkedin.com/in/judybussell"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
                     <hr class="small">
